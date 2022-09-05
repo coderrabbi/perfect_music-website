@@ -1,0 +1,211 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.album h1 {
+    font-size: 55px;
+}
+
+.our-navbar {
+    background: black;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+}
+
+.our-primary-menu {
+    margin-left: auto;
+}
+
+.our-primary-menu li {
+    display: inline-block;
+}
+
+.our-primary-menu li a {
+    color: gray;
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 20px;
+    transition: .4s;
+
+}
+
+.our-primary-menu li a:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.header-search {
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+
+
+.our-form {
+    position: relative;
+}
+
+.our-search {
+    outline: none;
+    padding: 9px 10px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+}
+
+.our-btn {
+    position: absolute;
+    border: none;
+    right: 3%;
+    top: 6px;
+    width: 50px;
+    height: 30px;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    padding: 0%;
+}
+
+.our-search::placeholder {
+    color: #707070;
+    font-size: 17px;
+}
+
+.our-btn:focus {
+    outline: none;
+}
+
+.our-btn img {}
+
+.album-text {
+    background-color: #FF1D00;
+}
+
+.album-text h1 {
+    color: #fff;
+}
+
+.sub-text {}
+
+.sub-text p {
+    font-size: 19px;
+}
+
+
+.album {}
+
+.album h1 {
+    font-size: 55px;
+}
+
+.album p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.album-img {
+    position: relative;
+}
+
+.album-img::before {
+    content: "";
+    position: absolute;
+
+    right: 0;
+    top: 0%;
+    width: 0%;
+    background: rgba(255, 0, 0, 0.6);
+    height: 100%;
+    padding: 0;
+    cursor: pointer;
+
+    opacity: 0;
+}
+
+.album-img:hover::before {
+    width: 100%;
+    opacity: 1;
+}
+
+
+.contact {
+    background: #111;
+}
+
+.contact h3 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.address ul li {
+    margin-bottom: 15px;
+}
+
+.address ul li img {
+    padding-right: 15px;
+}
+
+.address ul li span {
+    color: #fff;
+}
+
+.contact-form {}
+
+.contact-form .form-head {}
+
+.contact-form .form-head textarea {
+    padding: 12px 19px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.contact-form .form-head input {
+    padding: 12px 19px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #707070;
+}
+
+button.contact-btn {
+    padding: 12px 40px;
+    font-size: 17px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #fff;
+    color: red;
+    transition: .4s;
+}
+
+.contact-btn:hover {
+    background-color: #FF1D00;
+    color: #fff;
+}

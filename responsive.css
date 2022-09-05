@@ -1,0 +1,293 @@
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    img {
+        max-width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 50px;
+
+        line-height: 70px;
+    }
+
+    .hero-text h2 {
+        font-size: 45px;
+    }
+
+    .hero-text a {
+
+        width: 200px;
+
+    }
+
+    .our-primary-menu li a {
+        padding: 0px 26px;
+    }
+
+    .our-form {
+        width: 115px;
+    }
+
+    .music-img {
+        padding: 0 10px;
+    }
+
+    .music-text {
+        padding: 0 10px;
+
+    }
+
+    .music-head2 {
+        padding: 0 10px;
+    }
+
+    .box {
+        padding: 80px 0px;
+        margin-left: ;
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .our-search {
+        display: none;
+    }
+
+    .our-btn {
+        display: none;
+    }
+
+    .hero-text p {
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+
+    }
+
+    .hero-text a {
+        width: 163px;
+        padding: 3px 0;
+        font-size: 16px;
+
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .hero-text h2 {
+        font-size: 23px;
+
+    }
+
+
+
+    .music-img {
+        padding: 0 10px;
+    }
+
+    .music-text {
+        padding: 0 10px;
+
+    }
+
+    .music-head2 {
+        padding: 0 10px;
+    }
+
+    .box {
+        padding: 80px 0px;
+        margin-left: ;
+        margin-left: 0;
+    }
+
+
+    .box i img {
+        margin-left: 0;
+    }
+
+    .box p {
+        font-size: 16px;
+    }
+
+    .news .news-text-header h1 {
+        font-size: 55px;
+
+    }
+
+    .news .news-text-header p {
+        font-size: 16px;
+
+    }
+
+    .our-body {
+        padding: 20px 17px;
+    }
+
+    .box {
+        padding: 65px 0px;
+
+    }
+
+    .box h2 {
+        color: #fff;
+        font-size: 34px;
+    }
+
+    .album h1 {
+        font-size: 55px;
+    }
+
+    .album-img {
+        position: relative;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .our-btn {
+        display: none;
+    }
+
+
+    .hero-text p {
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        display: none;
+    }
+
+    .hero-text a {
+        width: 163px;
+        padding: 3px 0;
+        font-size: 16px;
+
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .hero-text h2 {
+        font-size: 23px;
+
+    }
+
+    .album-img {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .music-img {
+        padding: 0 10px;
+    }
+
+    .music-text {
+        padding: 0 10px;
+
+    }
+
+    .music-head2 {
+        padding: 0 10px;
+    }
+
+    .box {
+        padding: 80px 0px;
+        margin-left: ;
+        margin-left: 0;
+    }
+
+    .box {
+        padding: 80px 0px;
+        margin-left: ;
+        margin-left: 0;
+    }
+
+    .box i img {
+
+        margin-left: 0px;
+
+    }
+
+    .box h2 {
+        color: #fff;
+        font-size: 34px;
+    }
+
+    .box p {
+        font-size: 16px;
+    }
+
+    .news-btn {
+        width: 18%;
+        padding-top: 14px;
+
+        font-size: 16px;
+
+        padding-bottom: 15px;
+        border-left: 1px solid black;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .hero {
+        padding: 0px;
+    }
+
+    .hero-text p {
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        display: none;
+    }
+
+    .hero-text a {
+        width: 163px;
+        padding: 3px 0;
+        font-size: 16px;
+
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .hero-text h2 {
+        font-size: 23px;
+
+    }
+
+
+    .music-img {
+        padding: 0 10px;
+    }
+
+    .music-text {
+        padding: 0 10px;
+
+    }
+
+    .music-head2 {
+        padding: 0 10px;
+    }
+
+    .box {
+        padding: 80px 0px;
+        margin-left: ;
+        margin-left: 0;
+    }
+
+    .box {
+        padding: 80px 0px;
+        margin-left: ;
+        margin-left: 0;
+    }
+
+    .box i img {
+
+        margin-left: 45px;
+        margin-bottom: 14px;
+    }
+
+}

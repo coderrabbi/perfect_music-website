@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.our-navbar {
+    background: black;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+}
+
+.our-primary-menu {
+    margin-left: auto;
+}
+
+.our-primary-menu li {
+    display: inline-block;
+}
+
+.our-primary-menu li a {
+    color: gray;
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 20px;
+    transition: .4s;
+
+}
+
+.our-primary-menu li a:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.header-search {
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+
+
+.our-form {
+    position: relative;
+}
+
+.our-search {
+    outline: none;
+    padding: 9px 10px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+}
+
+.our-btn {
+    position: absolute;
+    border: none;
+    right: 3%;
+    top: 6px;
+    width: 50px;
+    height: 30px;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    padding: 0%;
+}
+
+.our-search::placeholder {
+    color: #707070;
+    font-size: 17px;
+}
+
+.our-btn:focus {
+    outline: none;
+}
+
+.our-btn img {}
+
+
+.album-text {
+    background-color: #FF1D00;
+}
+
+.album-text h1 {
+    color: #fff;
+}
+
+.our-card {
+    box-shadow: #ddd 0px 0px 8px 4px;
+}
+
+.our-body {
+    padding: 20px 30px;
+}
+
+.our-card img {}
+
+.our-card h4 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.our-card p {
+    margin-top: 12px;
+    color: gray;
+    line-height: 29px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.our-card span {
+    color: red;
+    margin-right: 18px;
+}
+
+
+.contact {
+    background: #111;
+}
+
+.contact h3 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.address ul li {
+    margin-bottom: 15px;
+}
+
+.address ul li img {
+    padding-right: 15px;
+}
+
+.address ul li span {
+    color: #fff;
+}
+
+.contact-form {}
+
+.contact-form .form-head {}
+
+.contact-form .form-head textarea {
+    padding: 12px 19px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.contact-form .form-head input {
+    padding: 12px 19px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #707070;
+}
+
+button.contact-btn {
+    padding: 12px 40px;
+    font-size: 17px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #fff;
+    color: red;
+    transition: .4s;
+}
+
+.contact-btn:hover {
+    background-color: #FF1D00;
+    color: #fff;
+}
+
+.our-footer p {
+    font-size: 19px;
+}
+
+.social-contact {}
+
+.social-contact li img {}
+
+.social-contact li a {
+    padding: 10px;
+    display: inline-block;
+}
+
+.social-contact li:nth-child(2) {
+    width: 70px;
+}
+
+::placeholder {
+    font-weight: 300;
+}
+
+
+.our-footer {}
+
+.our-footer p {
+    font-size: 19px;
+}
